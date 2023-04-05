@@ -22,9 +22,9 @@ ctx.stroke();
 }
 
 
-let seletorDeCores = document.getElementById('colorSelector')
-seletorDeCores.addEventListener('change', (evento) =>{
+// let seletorDeCores = document.getElementById('colorSelector')
+// seletorDeCores.addEventListener('change', (evento) =>{
 
-cores = evento.target.value 
-})
+// cores = evento.target.value 
+// })
 

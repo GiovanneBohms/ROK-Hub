@@ -7,11 +7,11 @@ let desenhos=[
 {nome:"verticeiSuperiorDireito_5",  W1:-5, H1: 2, W2: 2, H2: 7, W3: 0, H3: 0, W4: 0, H4: 0},
 {nome:"verticeiInferiorEsquerdo_6", W1: 2, H1:-5, W2: 7, H2: 2, W3: 0, H3: 0, W4: 0, H4: 0},
 {nome:"verticeiInferiorDireito_7",  W1: 2, H1:-5, W2:-5, H2: 2, W3: 2, H3: 2, W4: 0, H4: 0},
-{nome:"meioCima_7",                 W1: 2, H1: 7, W2:-5, H2: 2, W3: 7, H3: 2, W4: 0, H4: 0},
-{nome:"meioDireito_8",              W1: 2, H1: 7, W2: 2, H2:-5, W3:-5, H3: 2, W4: 0, H4: 0},
-{nome:"meioBaixo_9",                W1: 2, H1:-5, W2:-5, H2: 2, W3: 7, H3: 2, W4: 0, H4: 0},
-{nome:"meioEsquerdo_10",            W1: 2, H1: 7, W2: 2, H2:-5, W3: 7, H3: 2, W4: 0, H4: 0},
-{nome:"cruz_11",                    W1:-5, H1: 2, W2: 2, H2:-5, W3: 2, H3: 7, W4: 7, H4: 2},
+{nome:"meioCima_8",                 W1: 2, H1: 7, W2:-5, H2: 2, W3: 7, H3: 2, W4: 0, H4: 0},
+{nome:"meioDireito_9",              W1: 2, H1: 7, W2: 2, H2:-5, W3:-5, H3: 2, W4: 0, H4: 0},
+{nome:"meioBaixo_10",                W1: 2, H1:-5, W2:-5, H2: 2, W3: 7, H3: 2, W4: 0, H4: 0},
+{nome:"meioEsquerdo_11",            W1: 2, H1: 7, W2: 2, H2:-5, W3: 7, H3: 2, W4: 0, H4: 0},
+{nome:"cruz_12",                    W1:-5, H1: 2, W2: 2, H2:-5, W3: 2, H3: 7, W4: 7, H4: 2},
 ]
 
 function escolheDesenho(x,y,img){

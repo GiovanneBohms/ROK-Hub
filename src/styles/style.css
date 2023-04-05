@@ -1,0 +1,80 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 24px;
+    box-shadow: 0.4px 0.1px 1px  grey;
+}
+
+.Logo-Header{
+    height: 80px;
+}
+.cabecalho-menu{
+    display: flex;
+}
+.nav-header{
+    font-size: 24px;
+    font-family: "Patrick Hand", sans-serif;
+    
+}
+
+#spanDeTexto{
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.botaoClickado{
+    background-color: rgb(8, 216, 8);
+}
+
+#box-botoes{
+    border: 1px solid black;
+    
+}
+
+.img-botao{
+    height: 20px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 50px;
+}
+
+.text-draw{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.centralizadora{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 396px;
+    margin: 40px auto;
+}
+#COPY{
+    width: 60px;
+    border: 1px solid black;
+    margin-left: auto;
+}
+
+#botoes{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+
+#botoesDoDesenho{
+    /* border: 1px solid black; */
+    margin: 5px;
+    /* background-color: aquamarine; */
+    vertical-align: center;
+}
+
+.img-botao{
+    border: 1px solid black;
+    box-shadow: 1px  1px 2px 0.1px grey;
+}

@@ -16,7 +16,7 @@ canvas.addEventListener('click', (evento) =>{
     escolheDesenho(retorno.X,retorno.Y,valorDoClick)
 
     
-    console.log("valor do Click: "+valorDoClick)
+    // console.log("valor do Click: "+valorDoClick)
     console.log(matrizNumber)
   });
   
@@ -60,7 +60,6 @@ function registraNaMatriz(x,y){
   
 }
 let lastClicked;
-
   botoesDoDesenho.forEach(function(botoesDoDesenho){
   botoesDoDesenho.addEventListener('click', (evento)=>{
 
@@ -69,9 +68,8 @@ let lastClicked;
     }
     botoesDoDesenho.classList.add('botaoClickado');
     lastClicked = botoesDoDesenho
-    valorDoClick = parseInt(evento.target.value)
-})
-})
+    valorDoClick = parseInt(evento.target.parentNode.value)
+})})
 
 trataMatriz()
 function trataMatriz(){
@@ -149,8 +147,8 @@ const matrizFinal = matrizdeCaracter.map(linha =>{
 
 StringdaMatriz = JSON.stringify(matrizFinal)
 const string = StringdaMatriz.replace(/"/g, '').replace(/,/g, '').replace(/\[|\]/g, '');
-console.log(typeof string)
-console.log(string)
+// console.log(typeof string)
+// console.log(string)
 span.innerHTML = `<span>${string}</span>`
 
 }
