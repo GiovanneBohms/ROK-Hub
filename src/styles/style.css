@@ -78,3 +78,7 @@ header {
     border: 1px solid black;
     box-shadow: 1px  1px 2px 0.1px grey;
 }
+
+span{
+    font-family: monospace;
+}
