@@ -31,13 +31,11 @@ Com a finalidade de fazer desenhos com caracteres resolvi criar esta ferramenta 
 ┃       ██    ███████   █       ┃
 ┃        █   ███████   █        ┃
 ┃         ██ █████   ██         ┃
-┃           ████━  ██           ┃
+┃           ████   ██           ┃
 ┃             █████             ┃
 ┃                               ┃
 ┃                               ┃
 ┃                               ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
-
-![image](https://user-images.githubusercontent.com/13811860/230437680-990fb136-42ad-4d65-a821-885394890683.png)
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛```
+![image](https://user-images.githubusercontent.com/13811860/230438195-2846d0af-19b2-4570-8694-a19dbf921afa.png)
 
