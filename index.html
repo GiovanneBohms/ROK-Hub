@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./src/styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="./src/styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Drawing World</title>
+</head>
+<body>
+
+<header>
+
+    <img class="Logo-Header" src="./src/imgs/Logo.svg">
+    <nav class="cabecalho-menu-nav">
+        <ul class="cabecalho-menu">
+            <li><button class="nav-header">Text Draw</button></li>
+            <li><button class="nav-header">Text Editor</button></li>
+        </ul>
+        <!-- <a class="nav-header">TEXT DRAW</a>
+        <a class="nav-header">TEXT EDITOR</a> -->
+    </nav>
+
+</header>
+<div class="centralizadora">
+<section class="text-draw">
+    <div id="box-botoes">
+        <ul id="botoes"> 
+            <li><button id="botoesDoDesenho" value="0"><img src="./src/imgs/delet.svg" class="img-botao"></button></li>
+            <li><button id="botoesDoDesenho" value="1"><img src="./src/imgs/pixel.png" class="img-botao"></button></li>
+            <li><button id="botoesDoDesenho" value="2"><img src="./src/imgs/retaHorizontal.png" class="img-botao"></button></li>
+            <li><button id="botoesDoDesenho" value="3"><img src="./src/imgs/retaVertical.png" class="img-botao"></button></li>
+            <li><button id="botoesDoDesenho" value="4"><img src="./src/imgs/verticeSuperiorEsquerdo.png" class="img-botao"></button></li>
+            <li><button id="botoesDoDesenho" value="5"><img src="./src/imgs/verticeSuperiorDireito.png" class="img-botao"></button></li>
+            <li><button id="botoesDoDesenho" value="6"><img src="./src/imgs/verticeInferiorEsquerdo.png" class="img-botao"></button></li>
+            <li><button id="botoesDoDesenho" value="7"><img src="./src/imgs/verticeInferiorDireito.png" class="img-botao"></button></li>
+            <li><button id="botoesDoDesenho" value="8"><img src="./src/imgs/superiorMeio.png" class="img-botao"></button></li>
+            <li><button id="botoesDoDesenho" value="9"><img src="./src/imgs/direitaMeio.png" class="img-botao"></button></li>
+            <li><button id="botoesDoDesenho" value="10"><img src="./src/imgs/inferiorMeio.png" class="img-botao"></button></li>
+            <li><button id="botoesDoDesenho" value="11"><img src="./src/imgs/esquerdaMeio.png" class="img-botao"></button></li>
+            <li><button id="botoesDoDesenho" value="12"><img src="./src/imgs/cruz.png" class="img-botao"></button></li>
+        </ul>
+    </div>
+    <canvas id="myCanvas"></canvas>
+    <button id="COPY" value="12">COPY</button>
+</div>
+</section>
+<div id="spanDeTexto">
+    <span> texto aqui</span>
+
+</div>
+
+
+    <script src="./src/js/desenhosDoCanvas.js"></script>
+    <script src="./src/js/canvas.js"></script>
+    <script src="./src/js/matrizMath.js"></script>
+
+
+</body>
+</html>
