@@ -35,7 +35,7 @@ function desenha(x,y,img){
 }
 
 function desenhaDelet(x,y){
-    let delet = "imgs/delet.png"
+    let delet = "./src/imgs/delet.png"
     var image = new Image();
     image.src = delet;
     image.onload = function() {
