@@ -19,7 +19,7 @@ function escolheDesenho(x,y,img){
     if(img > 0){desenha(x,y,img)}
 }
 
-function desenha(x,y,img){
+ function desenha(x,y,img){
     desenhaDelet(x,y)
     setTimeout( ()=>{
 
