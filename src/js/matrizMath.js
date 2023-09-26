@@ -9,16 +9,27 @@ canvas.addEventListener('click', (evento) =>{
     let pixelX = evento.offsetX;
     let pixelY = evento.offsetY;
     let retorno = convertePixelCoordEmUnidade(pixelX,pixelY)
-
     registraNaMatriz(retorno.X,retorno.Y)
     copiaMatrizNumber()
-    converteMatrizEmTexto(copiaMatriz)
+    const stringCopiar = converteMatrizEmTexto(copiaMatriz)
     escolheDesenho(retorno.X,retorno.Y,valorDoClick)
 
-    
-    // console.log("valor do Click: "+valorDoClick)
-    console.log(matrizNumber)
+    copiarTextoParaAreaTransferencia();
+    console.log(matrizNumber);
   });
+
+  function copiarTextoParaAreaTransferencia() {
+    const span = document.getElementById('spanDeTexto');
+    const textoParaCopiar = span.innerText;
+
+    navigator.clipboard.writeText(textoParaCopiar)
+        .then(() => {
+            console.log('Texto copiado para a área de transferência.');
+        })
+        .catch((error) => {
+            console.error('Erro ao copiar para a área de transferência:', error);
+        });
+}
   
   
 function convertePixelCoordEmUnidade(x,y){
@@ -151,4 +162,5 @@ const string = StringdaMatriz.replace(/"/g, '').replace(/,/g, '').replace(/\[|\]
 // console.log(string)
 span.innerHTML = `<span>${string}</span>`
 
+return string;
 }

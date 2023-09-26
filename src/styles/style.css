@@ -47,14 +47,24 @@ header {
 
 }
 
-.centralizadora{
+.centralizadora {
     /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 396px;
-    margin: 40px auto;
+    margin: 20px auto;
 }
+span {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 396px;
+    margin: 20px auto;
+    border: solid 1px black
+}
+
 #COPY{
     width: 60px;
     border: 1px solid black;
