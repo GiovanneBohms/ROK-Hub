@@ -150,7 +150,7 @@ for (let i = 0; i < matrizdeCaracter.length; i++) {
 //converte em texto e quebra linha
 const matrizFinal = matrizdeCaracter.map(linha =>{ 
   if (linha.length === 0)
-  {return ""
+  {return "<br>"
 }else{
  return linha.join("") + "<br>"
 }
