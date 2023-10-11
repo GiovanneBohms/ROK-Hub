@@ -47,8 +47,8 @@ function renderizacao(){
 
     desenhaPlataforma()
     let contador = 0;
-    for(let x = 0; x<32; x++){
-        for(let y =0; y<32; y++){
+    for(let x = 0; x<33; x++){
+        for(let y =0; y<33; y++){
             escolheDesenho(y,x,matrizNumber[x][y])
             }
         }
