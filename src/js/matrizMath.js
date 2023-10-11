@@ -12,10 +12,9 @@ canvas.addEventListener('click', (evento) =>{
     registraNaMatriz(retorno.X,retorno.Y)
     copiaMatrizNumber()
     const stringCopiar = converteMatrizEmTexto(copiaMatriz)
-    escolheDesenho(retorno.X,retorno.Y,valorDoClick)
-
+    // escolheDesenho(retorno.X,retorno.Y,valorDoClick)
+    renderizacao();
     copiarTextoParaAreaTransferencia();
-    console.log(matrizNumber);
   });
 
 function copiarTextoParaAreaTransferencia() {
@@ -158,8 +157,7 @@ const matrizFinal = matrizdeCaracter.map(linha =>{
 
 StringdaMatriz = JSON.stringify(matrizFinal)
 const string = StringdaMatriz.replace(/"/g, '').replace(/,/g, '').replace(/\[|\]/g, '');
-// console.log(typeof string)
-// console.log(string)
+
 span.innerHTML = `<span>${string}</span>`
 
 return string;

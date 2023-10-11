@@ -15,12 +15,12 @@ let desenhos=[
 ]
 
 function escolheDesenho(x,y,img){
-    if(img == 0){desenhaDelet(x,y)}
+    // if(img == 0){desenhaDelet(x,y)}
     if(img > 0){desenha(x,y,img)}
 }
 
  function desenha(x,y,img){
-    desenhaDelet(x,y)
+    // desenhaDelet(x,y)
     setTimeout( ()=>{
 
     let posicaoX = (cellSize*x)+(cellSize/2)-1
@@ -34,11 +34,22 @@ function escolheDesenho(x,y,img){
 },15)
 }
 
-function desenhaDelet(x,y){
-    let delet = "./src/imgs/delet.png"
-    var image = new Image();
-    image.src = delet;
-    image.onload = function() {
-    ctx.drawImage(image, cellSize*x, cellSize*y);
+// function desenhaDelet(x,y){
+//     let delet = "./src/imgs/delet.png"
+//     var image = new Image();
+//     image.src = delet;
+//     image.onload = function() {
+//     ctx.drawImage(image, cellSize*x, cellSize*y);
+//     }
+// }
+
+function renderizacao(){
+
+    desenhaPlataforma()
+    let contador = 0;
+    for(let x = 0; x<32; x++){
+        for(let y =0; y<32; y++){
+            escolheDesenho(y,x,matrizNumber[x][y])
+            }
+        }
     }
-}
